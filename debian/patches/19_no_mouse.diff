@@ -1,0 +1,11 @@
+--- a/src/command.C
++++ b/src/command.C
+@@ -1896,7 +1896,7 @@ 
+ {
+   int reportmode = 0, clickintime;
+ 
+-  bypass_keystate = ev.state & (ModMetaMask | ShiftMask);
++  bypass_keystate = 1;
+ 
+   if (!bypass_keystate)
+     reportmode = !! (priv_modes & PrivMode_mouse_report);
