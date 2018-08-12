@@ -1,3 +1,10 @@
+rxvt-unicode (9.22-4.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * no-mouse support
+
+ -- Arthur Gautier <baloo@gandi.net>  Sun, 12 Aug 2018 08:41:21 +0000
+
 rxvt-unicode (9.22-4) unstable; urgency=medium
 
   * Fix insecure temporary file handling in urxvt(7), 17_unsafe_man.diff
