@@ -1,0 +1,110 @@
+Package: rxvt-unicode
+Version: 9.22-4.1
+Architecture: amd64
+Maintainer: Ryan Kavanagh <rak@debian.org>
+Installed-Size: 3338
+Depends: libc6 (>= 2.17), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libperl5.26 (>= 5.26.0~rc1), libstartup-notification0 (>= 0.2), libx11-6, libxft2 (>> 2.1.1), libxrender1, base-passwd (>= 2.0.3.4), ncurses-base (>= 6.1+20180210-4) | ncurses-term (>= 5.8-1)
+Recommends: fonts-dejavu, fonts-vlgothic | fonts-japanese-gothic
+Conflicts: rxvt-unicode-256color (<< 9.22-2), rxvt-unicode-lite (<< 9.22-2)
+Breaks: aterm (<< 1.0.1dummy), aterm-ml (<< 1.0.1dummy), rxvt (<< 1:2.7.10-7.1~), rxvt-ml (<< 1:2.7.10-7.1~)
+Replaces: aterm (<< 1.0.1dummy), aterm-ml (<< 1.0.1dummy), rxvt (<< 1:2.7.10-7.1~), rxvt-ml (<< 1:2.7.10-7.1~), rxvt-unicode-256color (<< 9.22-2), rxvt-unicode-lite (<< 9.22-2)
+Provides: aterm, rxvt, x-terminal-emulator
+Filename: ./rxvt-unicode_9.22-4.1_amd64.deb
+Size: 775352
+MD5sum: 94998c5e4fb46a8b98c8c35d0ca0d070
+SHA1: 11bf6565e275603186c16fa9457aa4d46967b043
+SHA256: 94c9ca3b823ade5979010a8fb8d31b44943f7e90ee6d3c3a3fab62dc4f62410a
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://software.schmorp.de/pkg/rxvt-unicode.html
+Description: RXVT-like terminal emulator with Unicode and 256-color support
+ rxvt-unicode is a modern, Unicode-aware color xterm replacement that uses
+ significantly less memory than a conventional xterm and many other Unicode
+ supporting terminal emulators.
+ .
+ It supports using multiple fonts at the same time, including Xft fonts, and
+ client-server technology to reduce memory consumption when using multiple
+ windows.
+ .
+ This package is configured with 256-color support, and TERM set to
+ "rxvt-unicode-256color". Any other systems you log into must have this
+ terminfo entry installed!
+
+Package: rxvt-unicode-256color
+Source: rxvt-unicode
+Version: 9.22-4.1
+Architecture: all
+Maintainer: Ryan Kavanagh <rak@debian.org>
+Installed-Size: 63
+Depends: rxvt-unicode (>= 9.22-2)
+Conflicts: rxvt-unicode (<< 9.22-2)
+Filename: ./rxvt-unicode-256color_9.22-4.1_all.deb
+Size: 52064
+MD5sum: 6b45e966db85de08a30eee3ef92da4f3
+SHA1: 150af26d9ef5b8b77ac3d6c13a9dd0581245fc61
+SHA256: 1866c3db578cdbc251daf3feec1fba17721a1e9ad7ff0f565724c1fa58a74ef3
+Section: oldlibs
+Priority: optional
+Homepage: http://software.schmorp.de/pkg/rxvt-unicode.html
+Description: dummy transitional package for rxvt-unicode
+ This is a dummy transitional package transitioning rxvt-unicode-256color to
+ rxvt-unicode. It can safely be removed.
+
+Package: rxvt-unicode-256color-nomouse
+Source: rxvt-unicode
+Version: 9.22-4.1
+Architecture: all
+Maintainer: Ryan Kavanagh <rak@debian.org>
+Installed-Size: 60
+Depends: rxvt-unicode-256color (= 9.22-4.1)
+Filename: ./rxvt-unicode-256color-nomouse_9.22-4.1_all.deb
+Size: 51948
+MD5sum: 3a9b8ac3091e3eca68b0494e2ad55c9b
+SHA1: d9ba6af5e40240f51d9aff8b4bb385c15e3917e8
+SHA256: 68fcec08a5ae2107a5f527f841ce037c24fb897edce6c508fa638685bfec396a
+Section: oldlibs
+Priority: optional
+Homepage: http://software.schmorp.de/pkg/rxvt-unicode.html
+Description: no mouse control in term
+ This is a dummy transitional package transitioning rxvt-unicode-256color to
+ rxvt-unicode. It can safely be removed.
+
+Package: rxvt-unicode-dbgsym
+Source: rxvt-unicode
+Version: 9.22-4.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Ryan Kavanagh <rak@debian.org>
+Installed-Size: 2721
+Depends: rxvt-unicode (= 9.22-4.1)
+Filename: ./rxvt-unicode-dbgsym_9.22-4.1_amd64.deb
+Size: 2450256
+MD5sum: 76c0022a609b1cad94e6a227e356e6db
+SHA1: b2b51b3697dc3fc0ff98ab828ec4eb692337cb53
+SHA256: 7f067d237dae73429a3fb64a9c14d68e0a739aeed985956201423a161dd01de8
+Section: debug
+Priority: optional
+Description: debug symbols for rxvt-unicode
+Build-Ids: 34405307dbba032c6c2e0baba17fed447f91959f 396cc205044585b63cf900302f37ba6ec572e49d c8ab70bc174a8c96f109b6d5fb6f35187ee89a2f
+
+Package: rxvt-unicode-lite
+Source: rxvt-unicode
+Version: 9.22-4.1
+Architecture: all
+Maintainer: Ryan Kavanagh <rak@debian.org>
+Installed-Size: 63
+Depends: rxvt-unicode (>= 9.22-2)
+Conflicts: rxvt-unicode (<< 9.22-2)
+Filename: ./rxvt-unicode-lite_9.22-4.1_all.deb
+Size: 52060
+MD5sum: 6e0e64d2089e1607bf7440efb3c10fc8
+SHA1: a0f396aace88394b03a3a3ce17e321b5dcb724fa
+SHA256: 8af62a6272e7d6c7a7667dff92f74761d19bfa13127efc92992ba3758f087044
+Section: oldlibs
+Priority: optional
+Homepage: http://software.schmorp.de/pkg/rxvt-unicode.html
+Description: dummy transitional package for rxvt-unicode
+ This is a dummy transitional package transitioning rxvt-unicode-lite to
+ rxvt-unicode. It can safely be removed.
+

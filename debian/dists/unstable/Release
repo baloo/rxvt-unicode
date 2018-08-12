@@ -1,0 +1,17 @@
+Date: Sun, 12 Aug 2018 08:45:21 +0000
+MD5Sum:
+ e8b7fdca96251a94d8052a7c99da382e               38 Release
+ 6bb910a2123cbaa6e78c8a98067ec267             4631 main/binary-amd64/Packages
+ 2563a54e61b39fa24d9e8290b153f165              833 main/binary-amd64/Packages.gpg
+SHA1:
+ 14d1a9a6627c1fb662e1c8452526996a05a1b137               38 Release
+ 348f6ff38f767ce5673fd9d95bd08e7bd461a1cc             4631 main/binary-amd64/Packages
+ ab9edf6f8b48bc297f0d4cac8a5014ab31d10194              833 main/binary-amd64/Packages.gpg
+SHA256:
+ 0c3f9c7e914b68c79eaf1e1c7c294868aa7432df2c964e5308bba1d93c4b4d24               38 Release
+ 342f1e3aa39ee39f3709e7b72951a295dbe171b09ba1e0e9ff3525a979e9b1b8             4631 main/binary-amd64/Packages
+ 3b32e22088374c88b802546d80053ad1f0daa8a34f83ce1d8155b49ab11d34f2              833 main/binary-amd64/Packages.gpg
+SHA512:
+ ff3d8a60a8259804e4956eb2ed48c856961bd62e4fdd34574defddfd0144f81157d9db7aa8c39be8ca5171a78f7730f76438b839310be1bb8f25758ca4ef406c               38 Release
+ 4eb131f2f9d725304c925607a28a6c4f4cec263c501fae6c37314d3c34fba0c50e9ac1317b0ef8c785b247220d34f371fc447a1947471587074c5dcdaab83280             4631 main/binary-amd64/Packages
+ 3697d5370045ca24d98fbaa4f1ae9cdbda4d4275eaa157d1074f76a040e0321854a718f120ec97d6b920cd8ed24f205784167994d99179d93b9a8cf9045fd203              833 main/binary-amd64/Packages.gpg
